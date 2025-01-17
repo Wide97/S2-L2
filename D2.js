@@ -125,7 +125,9 @@ console.log("Numeri ordinati dal più alto al più basso:", sortedNumbers);
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let myFavouriteNumber = 12;
+
+console.log(typeof myFavouriteNumber)
 
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
