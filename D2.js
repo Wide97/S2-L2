@@ -33,7 +33,7 @@ if (z % 5 === 0) {
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
 */
 
-let a = 5
+let a = 5;
 
 if (x=== 8 || a === 8 || x+a === 8) {
   console.log("il valore è 8")
@@ -46,6 +46,22 @@ if (x=== 8 || a === 8 || x+a === 8) {
   C'è una promozione in corso: se il totale del carrello supera 50, l'utente ha diritto alla spedizione gratuita (altrimenti la spedizione ha un costo fisso pari a 10).
   Crea un algoritmo che determini l'ammontare totale che deve essere addebitato all'utente per il checkout.
 */
+
+let totalShoppingCart = 23;
+
+let shippingCost = 10; 
+
+let totalPay;
+
+
+if(totalShoppingCart > 50) {
+  totalShoppingCart = totalPay
+} else {
+  totalPay = totalShoppingCart + shippingCost
+}
+
+console.log(totalPay)
+
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
