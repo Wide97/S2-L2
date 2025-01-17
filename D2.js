@@ -2,7 +2,14 @@
  Scrivi un algoritmo per trovare il più grande tra due numeri interi.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let x = 3
+let y = 6
+
+if(x>y) {
+  console.log ("x è maggiore di y")
+} else {
+  console.log ("x non è maggiore di y")
+}
 
 /* ESERCIZIO 2
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
