@@ -2,13 +2,13 @@
  Scrivi un algoritmo per trovare il più grande tra due numeri interi.
 */
 
-let x = 3
-let y = 6
+let x = 3;
+let y = 6;
 
-if(x>y) {
-  console.log ("x è maggiore di y")
+if (x > y) {
+  console.log("x è maggiore di y");
 } else {
-  console.log ("x non è maggiore di y")
+  console.log("x non è maggiore di y");
 }
 
 /* ESERCIZIO 2
@@ -16,14 +16,18 @@ if(x>y) {
 */
 
 if (x !== 5) {
-  console.log("not equal")
+  console.log("not equal");
 }
 
 /* ESERCIZIO 3
   Scrivi un algoritmo che mostri "divisibile per 5" in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: usa l'operatore modulo)
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let z = 10;
+
+if (z % 5 === 0) {
+  console.log("divisibile per 5");
+}
 
 /* ESERCIZIO 4
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
@@ -85,10 +89,10 @@ if (x !== 5) {
 */
 
 const me = {
-  name: 'John',
-  lastName: 'Doe',
-  skills: ['javascript', 'html', 'css'],
-}
+  name: "John",
+  lastName: "Doe",
+  skills: ["javascript", "html", "css"],
+};
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
