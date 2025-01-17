@@ -33,7 +33,13 @@ if (z % 5 === 0) {
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let a = 5
+
+if (x=== 8 || a === 8 || x+a === 8) {
+  console.log("il valore è 8")
+} else {
+  console.log("Non è quel valore")
+}
 
 /* ESERCIZIO 5
   Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
