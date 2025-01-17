@@ -90,7 +90,36 @@ console.log(totalPay)
   Alla fine mostra il risultato in console.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+
+let num1 = 15;
+let num2 = 42;
+let num3 = 27;
+
+
+let sortedNumbers;
+
+
+if (num1 >= num2 && num1 >= num3) {
+  if (num2 >= num3) {
+    sortedNumbers = [num1, num2, num3];
+  } else {
+    sortedNumbers = [num1, num3, num2];
+  }
+} else if (num2 >= num1 && num2 >= num3) {
+  if (num1 >= num3) {
+    sortedNumbers = [num2, num1, num3];
+  } else {
+    sortedNumbers = [num2, num3, num1];
+  }
+} else {
+  if (num1 >= num2) {
+    sortedNumbers = [num3, num1, num2];
+  } else {
+    sortedNumbers = [num3, num2, num1];
+  }
+}
+
+console.log("Numeri ordinati dal più alto al più basso:", sortedNumbers);
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
