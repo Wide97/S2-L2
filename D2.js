@@ -63,14 +63,26 @@ if(totalShoppingCart > 50) {
 console.log(totalPay)
 
 
-/* SCRIVI QUI LA TUA RISPOSTA */
-
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let discount = totalShoppingCart * 0.2
+console.log(discount)
+
+totalShoppingCart = totalShoppingCart - discount
+console.log(totalShoppingCart)
+
+if(totalShoppingCart > 50) {
+  totalShoppingCart = totalPay
+} else {
+  totalPay = totalShoppingCart + shippingCost
+}
+
+
+console.log(totalPay)
+
 
 /* ESERCIZIO 7
   Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
