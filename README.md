@@ -29,7 +29,7 @@ Ho completato il modulo **S2-L1**, che introduce i fondamenti di **JavaScript**.
 15. **Esercizio 15:** Sostituire l'ultimo valore di un array
 
 ### 🔗 Link al progetto:
-- [S2-L1 - Introduzione a JavaScript](https://github.com/Wide97/S2-L2)
+- [S2-L2 - oggetti, array e condizionali](https://github.com/Wide97/S2-L2)
 
 ### 📖 Competenze acquisite:
 - 🤖 **Programmazione in JavaScript**: Condizioni, cicli, manipolazione di oggetti e array.
