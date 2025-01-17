@@ -2,9 +2,9 @@
 
 🚀 **Esercizi di Full Stack Developer del corso Epicode** - Sto rivedendo tutti gli esercizi per consolidare le competenze acquisite durante il corso. Il progetto include una serie di esercizi pratici in **JavaScript**, focalizzati sull'uso delle strutture di controllo, manipolazione degli array e degli oggetti, e calcolo di valori.
 
-## 📚 Modulo S2-L1: Introduzione a JavaScript
+## 📚 Modulo S2-L2: Oggetti, Array e Condizionali
 
-Ho completato il modulo **S2-L1**, che introduce i fondamenti di **JavaScript**. Gli esercizi trattano vari temi, tra cui:
+Ho completato il modulo **S2-L2**, che introduce i fondamenti di **JavaScript**. Gli esercizi trattano vari temi, tra cui:
 - 🧮 Condizioni e operazioni matematiche
 - 🔢 Manipolazione di array e oggetti
 - 🛒 Calcolo di totali per carrelli d'acquisto con promozioni
